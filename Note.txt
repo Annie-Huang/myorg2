@@ -4,7 +4,7 @@ https://github.com/Annie-Huang/myorg2
 
 C:\react\myorg2>npm run start:frontend            http://localhost:4200/
 C:\react\myorg2>npm run start:api                 http://localhost:3333/api/todos
-
+C:\react\myorg2>nx dep-graph                      http://localhost:4211/
 
 
 ===================================================================================
@@ -45,3 +45,5 @@ ng g @nrwl/express:application api --frontend-project frontend
 (Can skip, we use api-interfaces instead)
 ng g @nrwl/workspace:library data # This generates a barebone library with only Typescript setup
 
+
+C:\react\myorg2>nx dep-graph          http://localhost:4211/
