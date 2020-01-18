@@ -32,4 +32,8 @@ new myorg2 --preset="angular-nest" --appName="frontend" --style="scss" --collect
 ng add @nrwl/angular # Add Angular Capabilities to the workspace
 ng g @nrwl/angular:application frontend # Create an Angular Application
 
+(Can skip)
+ng add @nrwl/nest # Add Node Capabilities to the workspace
+ng g @nrwl/nest:application api --frontend-project frontend # sets up the proxy configuration so you can access the API in development
+
 
