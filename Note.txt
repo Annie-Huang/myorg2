@@ -1,0 +1,35 @@
+https://nx.dev/angular/fundamentals/build-full-stack-applications
+https://github.com/Annie-Huang/myorg2
+
+
+
+
+
+===================================================================================
+
+C:\react>npx create-nx-workspace@latest myorg2
+npx: installed 169 in 12.39s
+? What to create in the new workspace (Use arrow keys)
+  empty             [an empty workspace]
+  web components    [a workspace with a single app built using web components]
+> angular           [a workspace with a single Angular application]
+  angular-nest      [a workspace with a full stack application (Angular + Nest)]
+  react             [a workspace with a single React application]
+  react-express     [a workspace with a full stack application (React + Express)]
+  next.js           [a workspace with a single Next.js application]
+? Application name                    frontend
+? Default stylesheet format
+  CSS
+> SASS(.scss)  [ http://sass-lang.com   ]
+  Stylus(.styl)[ http://stylus-lang.com ]
+  LESS         [ http://lesscss.org     ]
+
+Which basically runs:
+new myorg2 --preset="angular-nest" --appName="frontend" --style="scss" --collection=@nrwl/workspace
+
+
+(Can skip)
+ng add @nrwl/angular # Add Angular Capabilities to the workspace
+ng g @nrwl/angular:application frontend # Create an Angular Application
+
+
