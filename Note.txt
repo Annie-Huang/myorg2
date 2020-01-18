@@ -42,5 +42,6 @@ ng g @nrwl/nest:application api --frontend-project frontend # sets up the proxy 
 ng add @nrwl/express # Add Express Capabilities to the workspace
 ng g @nrwl/express:application api --frontend-project frontend
 
-
+(Can skip, we use api-interfaces instead)
+ng g @nrwl/workspace:library data # This generates a barebone library with only Typescript setup
 

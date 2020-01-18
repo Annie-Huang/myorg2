@@ -1,9 +1,10 @@
 import { Injectable } from '@nestjs/common';
-import { Message } from '@myorg2/api-interfaces';
+// import { Message } from '@myorg2/api-interfaces';
+import {Todo} from '@myorg2/api-interfaces';
 
-export interface Todo {
-  title: string;
-}
+// export interface Todo {
+//   title: string;
+// }
 
 @Injectable()
 export class AppService {

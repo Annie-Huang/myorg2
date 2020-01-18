@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Message } from '@myorg2/api-interfaces';
+// import { Message } from '@myorg2/api-interfaces';
 import {Observable} from 'rxjs';
+import {Todo} from '@myorg2/api-interfaces';
 
-interface Todo {
-  title: string;
-}
+// interface Todo {
+//   title: string;
+// }
 
 @Component({
   selector: 'myorg2-root',

@@ -1,8 +1,10 @@
 import { Controller, Get } from '@nestjs/common';
 
-import { Message } from '@myorg2/api-interfaces';
+// import { Message } from '@myorg2/api-interfaces';
+// import {AppService, Todo} from './app.service';
 
-import {AppService, Todo} from './app.service';
+import {AppService} from './app.service';
+import {Todo} from '@myorg2/api-interfaces';
 
 @Controller()
 export class AppController {
